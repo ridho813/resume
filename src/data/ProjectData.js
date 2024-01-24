@@ -5,7 +5,7 @@ export const ProjectList = [
     title: "Ventura Transport",
     description:
       "Our passion is in providing transportation services for you. We are sure to guarantee your comfort and safety when driving to your destination safely.",
-    tech_stack: ["Next Js", "Google Cloud", "TailwindCSS"],
+    tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
     github_url: "",
     demo_url: "",
   },
@@ -28,22 +28,13 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/pokedex-responsive.png",
-    title: "Pokedex",
+    img: "/portofolio/timcs.png",
+    title: "APP TIMCS",
     description:
-      "A pokedex app that displays pokemon data, plays OSTs and makes pokemons dance.",
-    tech_stack: ["ReactJs", "NodeJs", "MongoDB"],
+      "A Web Service that can make it easier for you to divide traffic to all CS (rotators) and make it easier for you to collect leads (Order Form). As well as helping you carry out all the online selling processes. From displaying products, receiving and managing orders.",
+    tech_stack: ["ReactJs", "Mysql", "NodeJs", "SocketIo", "SMTP"],
     github_url: "",
-    demo_url: "",
-  },
-  {
-    img: "/jobDetect.png",
-    title: "JobDetect",
-    description:
-      "An app to detect if a job posting is a scam or not using its description.",
-    tech_stack: ["Python", "Flask", "NodeJs", "MongoDB"],
-    github_url: "",
-    demo_url: "",
+    demo_url: "https://app.timcs.id",
   },
 ];
 

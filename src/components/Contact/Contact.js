@@ -4,8 +4,8 @@ import{WA} from "./WaElement";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const [showToolWa, setShowToolWa] = useState(false);
@@ -29,7 +29,7 @@ function Contact() {
 
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
-        <ScrollAnimation animateIn="fadeIn" >
+        <AnimationOnScroll animateIn="fadeIn" >
           <div className="BigCard">
           <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
@@ -92,7 +92,7 @@ function Contact() {
               </WA>
 
           </div>
-        </ScrollAnimation>
+        </AnimationOnScroll>
 
       </div>
     </ContactWrapper>
