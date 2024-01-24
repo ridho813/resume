@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/ridho813/static/css/main.212e6e9b.css",
-    "main.js": "/ridho813/static/js/main.e901f92a.js",
+    "main.css": "/ridho813/static/css/main.5afa5cdd.css",
+    "main.js": "/ridho813/static/js/main.e3bb9b57.js",
     "index.html": "/ridho813/index.html",
-    "static/media/blob-haikei.svg": "/ridho813/static/media/blob-haikei.ed4231cd548cd312fe4f.svg"
+    "static/media/blob-haikei.svg": "/ridho813/static/media/blob-haikei.ed4231cd548cd312fe4f.svg",
+    "main.5afa5cdd.css.map": "/ridho813/static/css/main.5afa5cdd.css.map",
+    "main.e3bb9b57.js.map": "/ridho813/static/js/main.e3bb9b57.js.map"
   },
   "entrypoints": [
-    "static/css/main.212e6e9b.css",
-    "static/js/main.e901f92a.js"
+    "static/css/main.5afa5cdd.css",
+    "static/js/main.e3bb9b57.js"
   ]
 }
