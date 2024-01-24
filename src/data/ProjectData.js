@@ -6,7 +6,7 @@ export const ProjectList = [
     description:
       "Our passion is in providing transportation services for you. We are sure to guarantee your comfort and safety when driving to your destination safely.",
     tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
-    github_url: "",
+    github_url: "https://github.com/ridho813/rental-mobil-next-js",
     demo_url: "",
   },
   {
