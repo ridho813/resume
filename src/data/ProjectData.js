@@ -1,7 +1,7 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "/portofolio/project.png",
+    img: "portofolio/project.png",
     title: "Ventura Transport",
     description:
       "Our passion is in providing transportation services for you. We are sure to guarantee your comfort and safety when driving to your destination safely.",
@@ -10,7 +10,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/renr-responsive.png",
+    img: "renr-responsive.png",
     title: "RENR Safety App",
     description:
       "A safety application for the Renewable Resources Dept. of BCIT",
@@ -19,7 +19,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/mymind-responsive.png",
+    img: "mymind-responsive.png",
     title: "MyMind",
     description:
       "An app where users can purchase online therapy sessions and chat with their therapists.",
@@ -28,7 +28,7 @@ export const ProjectList = [
     demo_url: "",
   },
   {
-    img: "/portofolio/timcs.png",
+    img: "portofolio/timcs.png",
     title: "APP TIMCS",
     description:
       "A Web Service that can make it easier for you to divide traffic to all CS (rotators) and make it easier for you to collect leads (Order Form). As well as helping you carry out all the online selling processes. From displaying products, receiving and managing orders.",
@@ -42,51 +42,51 @@ export const ProjectList = [
 
 export const stackList = [
   {
-    img: "/icone/html5.svg",
+    img: "icone/html5.svg",
     name: "HTML",
   },
   {
-    img: "/icone/css.svg",
+    img: "icone/css.svg",
     name: "CSS",
   },
   {
-    img: "/icone/javascript.svg",
+    img: "icone/javascript.svg",
     name: "JavaScript",
   },
   {
-    img: "/icone/jquery.svg",
+    img: "icone/jquery.svg",
     name: "Jquery",
   },
   {
-    img: "/icone/react.svg",
+    img: "icone/react.svg",
     name: "ReactJS",
   },
   {
-    img: "/icone/nextjs.svg",
+    img: "icone/nextjs.svg",
     name: "NextJs",
   },
   {
-    img: "/icone/typescript.svg",
+    img: "icone/typescript.svg",
     name: "Typescript",
   },
   {
-    img: "/icone/git.svg",
+    img: "icone/git.svg",
     name: "Git",
   },
   {
-    img: "/icone/nodejs.svg",
+    img: "icone/nodejs.svg",
     name: "NodeJS",
   },
   {
-    img: "/icone/php.svg",
+    img: "icone/php.svg",
     name: "PHP",
   },
   {
-    img: "/icone/ci3.svg",
+    img: "icone/ci3.svg",
     name: "CodeIgniter",
   },
   {
-    img: "/icone/laravel.svg",
+    img: "icone/laravel.svg",
     name: "Laravel",
   },
   {
@@ -94,19 +94,19 @@ export const stackList = [
     name: "MySql",
   },
   {
-    img: "/icone/bootstrap.svg",
+    img: "icone/bootstrap.svg",
     name: "Bootstrap",
   },
   {
-    img: "/icone/materialui.svg",
+    img: "icone/materialui.svg",
     name: "Material UI",
   },
   {
-    img: "/icone/tailwindcss.svg",
+    img: "icone/tailwindcss.svg",
     name: "TailwindCSS",
   },
   {
-    img: "/icone/vscode.svg",
+    img: "icone/vscode.svg",
     name: "VS Code",
   },
 ];
