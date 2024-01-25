@@ -1,21 +1,12 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
-    img: "portofolio/project.png",
-    title: "Ventura Transport",
+    img: "portofolio/absensi.png",
+    title: "Absensi Karyawan",
     description:
-      "Our passion is in providing transportation services for you. We are sure to guarantee your comfort and safety when driving to your destination safely.",
-    tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
-    github_url: "https://github.com/ridho813/rental-mobil-next-js",
-    demo_url: "",
-  },
-  {
-    img: "renr-responsive.png",
-    title: "RENR Safety App",
-    description:
-      "A safety application for the Renewable Resources Dept. of BCIT",
-    tech_stack: ["React", "Firebase"],
-    github_url: "",
+      "Digital absence using Codeigniter 3 is a project that I have created when I have free time, maybe this application is not 100% complete and there are still bugs in this application but I am still trying to fix these gaps as much as possible.",
+    tech_stack: ["PHP", "CodeIghniter 3", "Mysql", "Leafelet", "Geolocation"],
+    github_url: "https://github.com/ridho813/absensi-karyawan",
     demo_url: "",
   },
   {
@@ -36,6 +27,15 @@ export const ProjectList = [
     github_url: "",
     demo_url: "https://app.timcs.id",
   },
+  {
+    img: "portofolio/project.png",
+    title: "Ventura Transport",
+    description:
+      "Our passion is in providing transportation services for you. We are sure to guarantee your comfort and safety when driving to your destination safely.",
+    tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
+    github_url: "https://github.com/ridho813/rental-mobil-next-js",
+    demo_url: "",
+  }
 ];
 
 // --------------------------------------- Skills
