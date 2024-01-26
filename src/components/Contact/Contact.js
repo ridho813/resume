@@ -26,7 +26,6 @@ function Contact() {
 
   return (
     <ContactWrapper id="contact">
-
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
         <AnimationOnScroll animateIn="fadeIn" >
@@ -61,39 +60,8 @@ function Contact() {
                 Send Email
               </a>
             </Email>
-            <WA>
-            <div style={{ display: 'flex',textAlign:'right', alignItems: 'right',columnGap: '120px', justifyContent: 'right', position:'relative' }} >
-             <span> +62 81249429071          </span>
-                <Tooltip
-                  PopperProps={{
-                    disablePortal: true,
-                  }}
-                  open={showToolWa}
-                  onClose={() => setShowToolWa(false)}
-                  title="Copied!"
-                  TransitionComponent={Zoom}
-                  disableFocusListener
-                  disableHoverListener
-                  disableTouchListener
-                  placement="bottom"
-                >
-                  <IconButton  onClick={copyToWA} >
-                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
-                  </IconButton>
-                </Tooltip>
-                </div>
-                <a
-                className="btn SuccessBtn btn-shadow"
-                  target="_blank"
-                  href="https://api.whatsapp.com/send?phone=6281249429071"
-                >
-                  Contact Us
-                </a>
-              </WA>
-
           </div>
         </AnimationOnScroll>
-
       </div>
     </ContactWrapper>
   );
