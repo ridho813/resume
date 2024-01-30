@@ -78,6 +78,10 @@ export const stackList = [
     name: "NodeJS",
   },
   {
+    img: "icone/express-js.svg",
+    name: "ExpressJs",
+  },
+  {
     img: "icone/php.svg",
     name: "PHP",
   },
