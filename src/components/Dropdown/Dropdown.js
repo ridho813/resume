@@ -94,17 +94,9 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        {/* <a
-          className="btn PrimaryBtn"
-          href="https://bit.ly/CvRidhowachids"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <button className="btn PrimaryBtn" onClick={onButtonClick}>
           Resume
-        </a> */}
-         <button  className="btn PrimaryBtn"onClick={onButtonClick}>
-         Resume
-                </button>
+        </button>
       </NavBtn>
     </SiderBar>
   );
