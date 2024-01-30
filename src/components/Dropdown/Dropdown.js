@@ -56,6 +56,16 @@ export const NavBtn = styled.div`
   font-size: 1.7rem;
 `;
 
+const onButtonClick = () => {
+  const pdfUrl = "Curriculum Vitae.pdf";
+  const link = document.createElement("a");
+  link.href = pdfUrl;
+  link.download = "Curriculum-Vitae-Ridhows.pdf"; // specify the filename
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
+
 function Dropdown({ isOpen, toggle }) {
   return (
     <SiderBar isOpen={isOpen} onClick={toggle}>
@@ -84,14 +94,17 @@ function Dropdown({ isOpen, toggle }) {
         </NavLink>
       </NavMenu>
       <NavBtn onClick={toggle}>
-        <a
+        {/* <a
           className="btn PrimaryBtn"
-          href="https://id.linkedin.com/in/muh-ridho-wachid-s-5091b6218"
+          href="https://bit.ly/CvRidhowachids"
           target="_blank"
           rel="noopener noreferrer"
         >
           Resume
-        </a>
+        </a> */}
+         <button  className="btn PrimaryBtn"onClick={onButtonClick}>
+         Resume
+                </button>
       </NavBtn>
     </SiderBar>
   );
