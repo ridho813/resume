@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Dropdown from "../Dropdown/Dropdown";
 import Header from "../Header/Header";
 import {
-  
+
   HeroContainer,
   HeroWrapper,
   HeroLeft,
@@ -47,7 +47,7 @@ function Hero() {
                     500,
                     'A Full-Stack Developer.',
                     1000,
-                    'A BCIT graduate.',
+                    'A graduate of Respati University, Yogyakarta.',
                     // 'I design and code beautifully simple things, and I love what I do.',
                     1000,
                     'A problem solver.',
