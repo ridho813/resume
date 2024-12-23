@@ -23,7 +23,7 @@ export const ProjectList = [
     title: "APP TIMCS",
     description:
       "A Web Service that can make it easier for you to divide traffic to all CS (rotators) and make it easier for you to collect leads (Order Form). As well as helping you carry out all the online selling processes. From displaying products, receiving and managing orders.",
-    tech_stack: ["ReactJs", "Mysql", "NodeJs", "SocketIo", "SMTP"],
+    tech_stack: ["ReactJs", "NodeJs", "SocketIo", "SMTP"],
     github_url: "",
     demo_url: "https://app.timcs.id",
   },
@@ -35,6 +35,14 @@ export const ProjectList = [
     tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
     github_url: "https://github.com/ridho813/rental-mobil-next-js",
     demo_url: "",
+  }
+    {
+    img: "portofolio/regopos.png",
+    title: "REGOPOS",
+    description:
+      "REGOPOS is a system specifically designed to support retail business activities so that business management becomes easier and more profitable.",
+    tech_stack: ["NextJs", "React Js", "NodeJs","ExpressJs"],
+    demo_url: "https://regopos.id/?rdh",
   }
 ];
 
