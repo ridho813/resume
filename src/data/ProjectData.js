@@ -35,7 +35,7 @@ export const ProjectList = [
     tech_stack: ["NextJs", "Google Cloud", "TailwindCSS"],
     github_url: "https://github.com/ridho813/rental-mobil-next-js",
     demo_url: "",
-  }
+  },
     {
     img: "portofolio/regopos.png",
     title: "REGOPOS",
