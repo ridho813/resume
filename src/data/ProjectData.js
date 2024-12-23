@@ -42,6 +42,7 @@ export const ProjectList = [
     description:
       "REGOPOS is a system specifically designed to support retail business activities so that business management becomes easier and more profitable.",
     tech_stack: ["NextJs", "React Js", "NodeJs","ExpressJs"],
+       github_url: "",
     demo_url: "https://regopos.id/?rdh",
   }
 ];
