@@ -8,7 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 function About() {
   return (
@@ -16,33 +16,56 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-        <AnimationOnScroll animateIn="fadeInLeft">
-          <Image
-            src="ai2.png"
-            alt="man-svgrepo"
-          />
-        </AnimationOnScroll>
+          <AnimationOnScroll animateIn="fadeInLeft">
+            <Image src="ai2.png" alt="man-svgrepo" />
+          </AnimationOnScroll>
           <div className="AboutBio">
             <AnimationOnScroll animateIn="fadeInLeft">
-            Hello! My name is <strong>Muh Ridho Wachid S</strong>. I'm originally from Indonesia and have been living in Yogyakarta city for the past four years. I now Work at PT. Benderaku Berkibar Selalu. During my time here, I gained valuable experience through various entry-level positions, which greatly enhanced my work ethic, communication skills, and adaptability, as well as problem solving.
+              Hello! My name is <strong>Muh Ridho Wachid S</strong>. I’m a
+              passionate and adaptable full-stack developer based in Yogyakarta,
+              Indonesia, currently working at PT. Benderaku Berkibar Selalu.
+              Over the past few years, I’ve gained hands-on experience in
+              designing, developing, and optimizing high-performance web and
+              mobile systems tailored for real-world scalability.
             </AnimationOnScroll>
 
-            <br /><br />
-            
+            <br />
+            <br />
+
             <AnimationOnScroll animateIn="fadeInLeft">
-            My journey into the world of technology began with a strong passion for problem-solving, which led me to pursue the Computer Technology program. Despite its challenges, I remained determined and forged lasting friendships that supported me throughout this demanding program.
-             Throughout my studies at Respati University Yogyakarta I had the opportunity to engage in fascinating projects. Notably, I contributed to the development of the Pont Of sale App, auction item information system, voting information system and goods inventory system, projects that garnered recognition from my instructors, and clients alike
+              My interest in technology started with a deep desire to solve
+              real-life problems, which led me to pursue a Computer Technology
+              degree at Respati University Yogyakarta. During my studies, I
+              contributed to several impactful academic projects such as: Point
+              of Sale Application Auction Item Information System Voting
+              Information System Goods Inventory System These systems were
+              recognized not only by academic staff but also appreciated by
+              actual clients for their real-world applicability.
             </AnimationOnScroll>
 
-            <br /><br />
+            <br />
+            <br />
 
             <AnimationOnScroll animateIn="fadeInLeft">
-            Working collaboratively within a team towards a shared objective has been an incredibly rewarding and unique experience for me. I am eager to continue exploring exciting projects in the future, with a particular interest in web development and cross-platform mobile development.
+              💼 Professional & Technical Experience At PT. Benderaku Berkibar
+              Selalu, I’ve been deeply involved in building systems with
+              large-scale challenges, such as: ✅ Real-Time Notification Systems
+              for hundreds of millions of users using Socket.IO and Node.js
+              (without Firebase) ✅ Comment and Coordination Platforms (like
+              WhatsApp) using PHP & MySQL, where performance and user division
+              mapping are handled without Redis ✅ Email-like Messaging System
+              with labeling, starring, multi-user, and read tracking using JSON
+              for optimal database storage ✅ Project Task Coordination, Chat,
+              and Multi-user Collaboration Tools ✅ High-performance frontend
+              using IndexedDB, DataTables, and AJAX for billions of data records
+              ✅ Exporting billions of rows directly in the browser using
+              xlsx.js, bypassing heavy server-side load (without PHPSpreadsheet)
+              ✅ Mobile Development using Flutter to create modern,
+              cross-platform solutions
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
             </AnimationOnScroll>
-            
 
             <Technologies>
               {stackList.map((stack, index) => (
@@ -55,7 +78,6 @@ function About() {
               ))}
             </Technologies>
           </div>
-
         </div>
       </div>
     </ContactWrapper>
