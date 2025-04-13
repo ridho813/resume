@@ -33,14 +33,46 @@ function About() {
             <br />
 
             <AnimationOnScroll animateIn="fadeInLeft">
-              My interest in technology started with a deep desire to solve
-              real-life problems, which led me to pursue a Computer Technology
-              degree at Respati University Yogyakarta. During my studies, I
-              contributed to several impactful academic projects such as: Point
-              of Sale Application Auction Item Information System Voting
-              Information System Goods Inventory System These systems were
-              recognized not only by academic staff but also appreciated by
-              actual clients for their real-world applicability.
+              <div className="text-base leading-relaxed">
+                <p className="mb-2">
+                  My interest in technology started with a deep desire to solve
+                  real-life problems, which led me to pursue a Computer
+                  Technology degree at{" "}
+                  <strong>Respati University Yogyakarta</strong>.
+                </p>
+                <p className="mb-2">
+                  During my studies, I contributed to several impactful academic
+                  projects such as:
+                </p>
+                <ul className="list-disc list-inside space-y-1 mb-2">
+                  <li>
+                    <strong>Point of Sale Application</strong>
+                  </li>
+                  <li>
+                    <strong>Auction Item Information System</strong>
+                  </li>
+                  <li>
+                    <strong>Voting Information System</strong>
+                  </li>
+                  <li>
+                    <strong>Goods Inventory System</strong>
+                  </li>
+                  <li>
+                    <strong>TIMCS.ID</strong>
+                  </li>
+                  <li>
+                    <strong>TIMHR.ID</strong>
+                  </li>
+                  <li>
+                    <strong>REGOPOS.ID</strong>
+                  </li>
+                </ul>
+                <p>
+                  These systems were recognized not only by academic staff but
+                  also appreciated by actual clients for their real-world
+                  applicability.
+                </p>
+              </div>
             </AnimationOnScroll>
 
             <br />
