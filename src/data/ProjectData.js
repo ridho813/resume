@@ -122,4 +122,8 @@ export const stackList = [
     img: "icone/vscode.svg",
     name: "VS Code",
   },
+  {
+    img: "icone/socketio.png",
+    name: "Socket.IO",
+  },
 ];

@@ -95,6 +95,9 @@ function About() {
                   </li>
                 </ul>
               </div>
+              <div className="tagline2">
+                I have become confident using the following technologies:
+              </div>
             </AnimationOnScroll>
 
             <Technologies>
