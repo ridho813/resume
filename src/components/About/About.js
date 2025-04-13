@@ -47,23 +47,53 @@ function About() {
             <br />
 
             <AnimationOnScroll animateIn="fadeInLeft">
-              💼 Professional & Technical Experience At PT. Benderaku Berkibar
-              Selalu, I’ve been deeply involved in building systems with
-              large-scale challenges, such as: ✅ Real-Time Notification Systems
-              for hundreds of millions of users using Socket.IO and Node.js
-              (without Firebase) ✅ Comment and Coordination Platforms (like
-              WhatsApp) using PHP & MySQL, where performance and user division
-              mapping are handled without Redis ✅ Email-like Messaging System
-              with labeling, starring, multi-user, and read tracking using JSON
-              for optimal database storage ✅ Project Task Coordination, Chat,
-              and Multi-user Collaboration Tools ✅ High-performance frontend
-              using IndexedDB, DataTables, and AJAX for billions of data records
-              ✅ Exporting billions of rows directly in the browser using
-              xlsx.js, bypassing heavy server-side load (without PHPSpreadsheet)
-              ✅ Mobile Development using Flutter to create modern,
-              cross-platform solutions
-              <div className="tagline2">
-                I have become confident using the following technologies:
+              <div className="text-base leading-relaxed">
+                <h3 className="text-xl font-semibold mb-2">
+                  💼 Professional & Technical Experience
+                </h3>
+                <p className="mb-4">
+                  At <strong>PT. Benderaku Berkibar Selalu</strong>, I’ve been
+                  deeply involved in building systems with large-scale
+                  challenges, such as:
+                </p>
+                <ul className="list-disc list-inside space-y-2">
+                  <li>
+                    ✅ <strong>Real-Time Notification Systems</strong> for
+                    hundreds of millions of users using{" "}
+                    <strong>Socket.IO</strong> and <strong>Node.js</strong>{" "}
+                    (without Firebase)
+                  </li>
+                  <li>
+                    ✅ <strong>Comment and Coordination Platforms</strong> (like
+                    WhatsApp) using <strong>PHP & MySQL</strong>, where
+                    performance and user division mapping are handled{" "}
+                    <strong>without Redis</strong>
+                  </li>
+                  <li>
+                    ✅ <strong>Email-like Messaging System</strong> with
+                    labeling, starring, multi-user, and read tracking using{" "}
+                    <strong>JSON</strong> for optimal database storage
+                  </li>
+                  <li>
+                    ✅ <strong>Project Task Coordination</strong>, Chat, and
+                    Multi-user Collaboration Tools
+                  </li>
+                  <li>
+                    ✅ <strong>High-performance frontend</strong> using{" "}
+                    <strong>IndexedDB</strong>, <strong>DataTables</strong>, and{" "}
+                    <strong>AJAX</strong> for billions of data records
+                  </li>
+                  <li>
+                    ✅ <strong>Exporting billions of rows</strong> directly in
+                    the browser using <strong>xlsx.js</strong>, bypassing heavy
+                    server-side load (without PHPSpreadsheet)
+                  </li>
+                  <li>
+                    ✅ <strong>Mobile Development</strong> using{" "}
+                    <strong>Flutter</strong> to create modern, cross-platform
+                    solutions
+                  </li>
+                </ul>
               </div>
             </AnimationOnScroll>
 
