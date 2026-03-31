@@ -8,7 +8,7 @@ export const ProjectList = [
     tech_stack: ["PHP", "CodeIghniter 3", "Mysql", "Leafelet", "Geolocation"],
     github_url: "https://github.com/ridho813/absensi-karyawan",
     demo_url: "",
-  },
+  }, 
   {
     img: "mymind-responsive.png",
     title: "MyMind",
