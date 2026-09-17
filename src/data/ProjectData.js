@@ -36,15 +36,24 @@ export const ProjectList = [
     github_url: "https://github.com/ridho813/rental-mobil-next-js",
     demo_url: "",
   },
-    {
+  {
     img: "portofolio/regopos.png",
     title: "REGOPOS",
     description:
       "REGOPOS is a system specifically designed to support retail business activities so that business management becomes easier and more profitable.",
-    tech_stack: ["NextJs", "React Js", "NodeJs","ExpressJs"],
-       github_url: "",
+    tech_stack: ["NextJs", "React Js", "NodeJs", "ExpressJs"],
+    github_url: "",
     demo_url: "https://regopos.id/?rdh",
-  }
+  },
+  {
+    img: "portofolio/yukbelanja.png",
+    title: "Yuk Belanja",
+    description:
+      "Yuk Belanja is an e-commerce platform and online marketplace featuring multi-warehouse management, real-time shipment tracking, COD (Cash on Delivery), automated logistics integration, and promotional systems.",
+    tech_stack: ["PHP", "CodeIgniter 4", "MySQL", "JavaScript", "Bootstrap"],
+    github_url: "",
+    demo_url: "https://yukbelanja.com",
+  },
 ];
 
 // --------------------------------------- Skills
@@ -125,5 +134,17 @@ export const stackList = [
   {
     img: "icone/socketio.png",
     name: "Socket.IO",
+  },
+  {
+    img: "icone/vps.svg",
+    name: "VPS",
+  },
+  {
+    img: "icone/cpanel.svg",
+    name: "cPanel",
+  },
+  {
+    img: "icone/google-storage.svg",
+    name: "Google Storage",
   },
 ];
