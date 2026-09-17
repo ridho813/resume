@@ -135,6 +135,7 @@ export const stackList = [
     img: "icone/socketio.png",
     name: "Socket.IO",
   },
+  
   {
     img: "icone/vps.svg",
     name: "VPS",
